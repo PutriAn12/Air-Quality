@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the data
-data = pd.read_csv('PRSA_Data_Aotizhongxin_20130301-20170228.csv')
+data = pd.read_csv('dashboard/PRSA_Data_Aotizhongxin_20130301-20170228.csv')
 
 # Set up the page
 st.title("Dashboard Harian Kualitas Udara Aotizhongxin (2013-2017)")
